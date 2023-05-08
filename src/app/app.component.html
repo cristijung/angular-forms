@@ -1,16 +1,18 @@
 <mat-toolbar color="warn">
   <mat-toolbar-row>
-    <span>Formulário - DataForm - Angular</span>
+    <span routerLink="/home">Formulário - DataForm - Angular</span>
     <span class="example-spacer"></span>    
   </mat-toolbar-row>  
 </mat-toolbar>
 <section class="container">
-  <button mat-button [matMenuTriggerFor]="menu" color="warn">Menu</button>
+  <button mat-button [matMenuTriggerFor]="menu" color="warn" routerLink="/home">Menu</button>
     <mat-menu #menu="matMenu">
-     <button mat-menu-item>DataForm</button>
-     <button mat-menu-item>TemplateForm</button>
-     <button mat-menu-item>DebugComponent</button>
+     <button mat-menu-item routerLink="/data-form">DataForm</button>
+     <button mat-menu-item routerLink="/template-form">TemplateForm</button>
+     <button mat-menu-item routerLink="/debug-form">DebugComponent</button>
   </mat-menu>
 
-
+  <main>
+    <router-outlet></router-outlet>
+  </main>
 </section>
