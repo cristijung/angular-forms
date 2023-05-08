@@ -1,1 +1,22 @@
-<p>Formulário Reativo</p>
+<!-- Importante mencionar que no Reactive Form não há variáveis locais
+as variáveis vem sempre do componente definido lá no Ts -->
+
+<section class="container">
+    <h2>Formulários Reativos - DataForm</h2>
+
+    <div>
+        <form [formGroup]="formulario">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+            </div>
+
+            <button type="submit" color="warn">Enviar</button>
+
+        </form>
+    </div>
+</section>

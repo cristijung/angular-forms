@@ -47,4 +47,8 @@ export class DataFormComponent implements OnInit {
   }
 }
 
+//aqui vemos duas formas de criar o formulário
+// --- FormGroup
+// --- FormBuilder
+// são classes do Angular
 
