@@ -8,11 +8,13 @@ as variáveis vem sempre do componente definido lá no Ts -->
         <form [formGroup]="formulario">
             <div>
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <!-- uso da diretiva formControlName para 'vincular' os dados com o Ts
+                para 'receber' os dados digitados -->
+                <input type="text" formControlName="nome" id="nome" placeholder="Nome">
             </div>
             <div>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu email">
+                <input type="email" formControlName="email" id="email" placeholder="Digite seu email">
             </div>
 
             <button type="submit" color="warn">Enviar</button>
