@@ -1,5 +1,19 @@
 # Angular Forms
 
+## Usando no projeto:
+Angular fornece duas abordagens diferentes para lidar com a entrada do usuário por meio de formulários: 
+1 - Reativo (dataForm); 
+2 - Orientado a modelo (templateForm). 
+
+No Angular, os formulários são criados usando a diretiva ngForm. A diretiva ngForm é usada para criar um formulário Angular e vinculá-lo a um modelo de dados em um componente. 
+
+## Tecnologias
+1 - TypeScript
+2 - Material Angular UI
+
+____________________________________________________________________________________________________
+## Install 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
 ## Development server
