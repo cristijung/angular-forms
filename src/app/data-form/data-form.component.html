@@ -5,7 +5,8 @@ as variáveis vem sempre do componente definido lá no Ts -->
     <h2>Formulários Reativos - DataForm</h2>
 
     <div>
-        <form [formGroup]="formulario">
+        <!-- para inserir evento de submissão aqui a gente coloca o (ngSubmit)="onSubmit()" -->
+        <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
             <div>
                 <label for="nome">Nome:</label>
                 <!-- uso da diretiva formControlName para 'vincular' os dados com o Ts

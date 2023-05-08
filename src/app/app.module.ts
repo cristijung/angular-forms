@@ -9,16 +9,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DataFormComponent } from './data-form/data-form.component';
+
 import { TemplateFormComponent } from './template-form/template-form.component';
 import { DebugFormComponent } from './debug-form/debug-form.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { DataFormModule } from './data-form/data-form.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DataFormComponent,
+    AppComponent,    
     TemplateFormComponent,
     DebugFormComponent,
     HomeComponent,
@@ -33,7 +33,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    DataFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
