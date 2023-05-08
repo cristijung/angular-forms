@@ -1,7 +1,7 @@
 # Angular Forms
 
 ## Usando no projeto:
-Angular fornece duas abordagens diferentes para lidar com a entrada do usuário por meio de formulários: 
+Angular fornece duas abordagens diferentes para lidar com a entrada do usuário por meio de formulários:  <br/>
 1 - Reativo (dataForm); <br/>
 2 - Orientado a modelo (templateForm). 
 
