@@ -11,6 +11,19 @@ No Angular, os formulários são criados usando a diretiva ngForm. A diretiva ng
 1 - TypeScript <br/>
 2 - Material Angular UI <br/>
 
+## Formulário Reativo (dataForm)
+
+Formulário reativo no Angular é uma abordagem para construir e gerenciar formulários em um aplicativo Angular, onde o estado do formulário é modelado como um objeto observável reativo. Isso significa que o estado do formulário é atualizado automaticamente sempre que o usuário interage com ele, e os componentes do aplicativo que dependem desse estado são notificados dessas mudanças.
+
+O formulário reativo é construído usando classes TypeScript e os recursos do Reactive Forms Module fornecidos pelo Angular. Os principais componentes de um formulário reativo são:
+
+- `FormControl`: Representa um único controle de entrada de formulário, como uma caixa de texto ou um botão de opção. Ele mantém o valor atual do controle e também o estado de validação.
+- `FormGroup`: Representa um grupo de controles de entrada de formulário que compartilham um objetivo comum, como um formulário de login com campos de e-mail e senha. Ele contém um objeto de controles filhos.
+- `FormArray`: Representa uma coleção dinâmica de controles de entrada de formulário, como uma lista de seleção de várias opções. Ele contém uma matriz de controles filhos. <br/>
+
+Usando esses componentes, um formulário reativo pode ser construído e manipulado de forma programática, tornando-o altamente flexível e extensível. Além disso, o estado do formulário pode ser facilmente validado e sincronizado com o estado do modelo de dados do aplicativo, tornando-o uma abordagem poderosa para gerenciar formulários em aplicativos Angular.
+
+
 ____________________________________________________________________________________________________
 ## Install 
 
